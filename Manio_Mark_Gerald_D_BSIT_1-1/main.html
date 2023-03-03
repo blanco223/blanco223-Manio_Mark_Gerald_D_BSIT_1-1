@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<body>
+
+    
+
+    
+    
+    
+    <style>
+
+        body {
+            margin: 0px;
+        }
+
+        #navigation {
+            background-color: rgb(44, 49, 49);
+            width: 100%;
+            height: 55px;
+            font-family: 'Courier New', Courier, monospace;
+            color: floralwhite;
+            padding-top: 10px;
+            padding-left: 30px
+            
+
+            
+            
+        }
+        .links {
+            color:white;
+        }
+
+        #Manio {
+            color: blueviolet;
+            font-size: 25px;
+
+        }
+
+        #logo{
+            width: 20px;
+            float: left;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .background-image {
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 110%;
+            height: 1080px;
+            margin: 0;
+            padding: 0;
+        }
+        .table{
+            align-items: center;
+            width: 600px;
+            height: 500px;
+            border: 1px;
+        }
+
+        
+        *{
+            margin:0;
+            padding: 0;
+            outline: 0;
+        }
+
+ 
+
+
+        table{
+            position: absolute;
+            z-index: 2;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 60%; 
+            border-collapse: collapse;
+            border-spacing: 0;
+            box-shadow: 0 2px 15px rgba(64,64,64,.7);
+            border-radius: 12px 12px 0 0;
+            overflow: hidden;
+
+         }
+        td , th{
+            padding: 15px 20px;
+            text-align: center;
+            
+
+        }
+        th{
+            background-color: blueviolet;
+            color: #fafafa;
+            font-family: 'Open Sans',Sans-serif;
+            font-weight: 200;
+            text-transform: uppercase;
+
+        }
+        tr{
+            width: 100%;
+            background-color: #fafafa;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        tr:nth-child(even){
+            background-color: #eeeeee;
+        }
+
+        .login{
+          background:  blueviolet;
+          color: white;
+          text-decoration: none;
+          border: 2px solid transparent;
+          font-weight: bold;
+          padding: 13px 30px;
+          border-radius: 30px;
+          transition: .4s;
+          align-items: center;
+        }
+        button:hover{
+            opacity: 0.6;
+            border: 2px solid  blueviolet;
+            cursor: pointer;
+        }
+        .logout{
+            position: relative;
+            bottom: 46px;
+            margin-left: 1300px;
+            margin-right: 0;
+        }
+
+     
+      
+
+    </style>
+
+    <div id="navigation">
+        
+        <img src="picmo.jpg" id="logo">
+        <div id="Manio">
+            Manio
+        </div> 
+    
+        <div>
+            <a href="main.html" class="links">Main</a>
+            <a href="login.html" class="links">Login</a>
+            <a href="about.html" class="links">About</a>
+            <a href="registration.html" class="links">Registration</a>
+            <a href="login.html"><button type="button" class="login logout" >Logout </button></a>
+        </div>
+    </div>
+
+    <div class="background-image"></div>
+
+  
+
+            
+              
+        
+
+    
+   
+    <table >
+   
+    
+   <div>
+    <tr>
+    <th>#</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email </th>
+    <th>BirthDate   </th>
+    <th>Age</th>
+    </tr>
+   
+   
+     <tr>
+    <td>1</td>
+    <td>Jean</td>
+    <td>Delmundo</td>
+    <td>mundo@gmail.com</td>
+    <td>18 Nov 2004</td>
+    <td>18</td>
+    </tr>
+   
+    <tr>
+    <td>2</td>
+    <td>Jack</td>
+    <td>Bartolome</td>
+    <td>bartolome@gmail.com</td>
+    <td>18 Dec 2002</td>
+    <td>20</td>
+    </tr>
+   
+    <tr>
+    <td>3</td>
+    <td>lebron</td>
+    <td>Labrador</td>
+    <td>labrador22@gmail.com</td>
+    <td>18 Nov 2000 </td>
+    <td>22</td>
+    </tr>
+   
+    </table>
+    </div>
+
+    
+
+    
+
+</body>
+</html>
